@@ -5,6 +5,6 @@
   ],
   "compression": "GZ",
   "main": "bin/console",
-  "output": "build/freeip.phar",
+  "output": "build/freeport.phar",
   "git-version": "git_version"
 }
