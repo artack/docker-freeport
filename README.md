@@ -1,4 +1,4 @@
-Docker Free--DB-Port - Find the next available free port
+Docker Free-DB-Port - Find the next available free port
 ===================================
 
 Installation
