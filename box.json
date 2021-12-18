@@ -1,0 +1,10 @@
+{
+  "directories": [
+    "src",
+    "vendor"
+  ],
+  "compression": "GZ",
+  "main": "bin/console",
+  "output": "build/freeip.phar",
+  "git-version": "git_version"
+}

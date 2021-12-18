@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+
+use App\Command\FindCommand;
+use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Input\ArgvInput;
+
+set_time_limit(0);
+
+require __DIR__.'/../vendor/autoload.php';
+
+$input = new ArgvInput();
+$findCommand = new FindCommand();
+
+$name = 'Docker Free-DB-Port Finder';
+$version = '@git_version@';
+
+$application = new Application($name, $version);
+$application->add($findCommand);
+$application->setDefaultCommand($findCommand->getName(), true);
+$application->run($input);
