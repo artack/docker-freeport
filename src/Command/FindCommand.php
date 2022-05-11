@@ -64,7 +64,6 @@ class FindCommand extends Command
                 'app',
                 'intranet',
                 'intranet-old',
-                'frv',
                 'offertrechner',
                 'translations',
                 'deployment',
