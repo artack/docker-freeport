@@ -55,7 +55,7 @@ build:
 	rm -Rf ./vendor/
 	composer install --no-dev
 
-	php80 /usr/local/bin/box.phar compile
+	php /usr/local/bin/box.phar compile
 
 	git checkout gh-pages
 
