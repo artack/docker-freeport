@@ -55,7 +55,7 @@ build:
 	rm -Rf ./vendor/
 	composer install --no-dev
 
-	php83 /opt/homebrew/bin/box compile
+	php /opt/homebrew/bin/box compile
 
 	git checkout gh-pages
 
