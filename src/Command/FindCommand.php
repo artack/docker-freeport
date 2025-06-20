@@ -53,8 +53,12 @@ class FindCommand extends Command
         $finder = new Finder();
         $finder
             ->files()
+            ->name('compose.yml')
+            ->name('compose.yaml')
             ->name('docker-compose.yml')
+            ->name('docker-compose.yaml')
             ->name('docker-compose.override.yml')
+            ->name('docker-compose.override.yaml')
             ->in($dir)
             ->depth($depth)
             ->exclude([
